@@ -1,4 +1,4 @@
-##OSD Cloud ZTI Win10 22H2 German
+##OSD Cloud ZTI Win10 21H2 German
 
 Write-Host  -ForegroundColor Cyan "Starting OSD Cloud Zero Touch Deployment.."
 Start-Sleep -Seconds
