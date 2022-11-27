@@ -14,7 +14,7 @@ Write-Host  -ForegroundColor Cyan "Updating the awesome OSD PowerShell Module.."
 Install-Module -Name OSD -Force
 
 #Start OSD Cloud ZTI Deployment
-Write-Host  -ForegroundColor Cyan "Start OSDCloud Deployment Windows 10 22H2"
+Write-Host  -ForegroundColor Cyan "Start OSDCloud Deployment Windows 11 22H2"
 Start-OSDCloud -Screenshot -OSLanguage de-de -OSBuild 22H2 -OSEdition Enterprise -ZTI
 
 #PostAction
