@@ -1,7 +1,7 @@
 ##OSD Cloud ZTI Win10 21H2 German
 
 Write-Host  -ForegroundColor Cyan "Starting OSD Cloud Zero Touch Deployment.."
-Start-Sleep -Seconds
+Start-Sleep -Seconds 5
 
 #Change Display Resolution for Virtual Machine
 if ((Get-MyComputerModel) -match 'Virtual') {
